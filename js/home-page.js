@@ -6,6 +6,6 @@ let year = date.getFullYear();
 
 let text = document.lastModified;
 
-document.getElementById("update").innerHTML = "Last Updated: "+ text;
+document.querySelector("#update").innerHTML = "Last Updated: "+ text;
 
 document.querySelector("#footer").innerHTML = "© " + year + " .:|:. Justin J. Mikolajcik .:|:. Idaho";
