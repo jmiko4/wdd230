@@ -2,64 +2,69 @@
     border:1px solid black;
 } */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
-header{
+
+header {
     background-color: purple;
-    display:flex;
+    display: flex;
     border-radius: 15px;
-    margin:0 auto;
-    padding:20px;
+    margin: 0 auto;
+    padding: 20px;
     box-shadow: 0px 5px 10px;
     max-width: 1280px;
 }
 
-#photo{
+#photo {
     width: 200px;
-    padding:5px;
+    /* padding:5px; */
     box-shadow: 0px 0px 8px black;
 }
 
-#name{
+#name {
     padding: 20px;
     font-family: Montserrat;
     color: white;
     font-weight: bold;
-    margin:0 auto;
+    margin: 0 auto;
     align-self: center;
     text-shadow: 3px 3px 5px black;
 }
 
-#title{
+#title {
     text-shadow: 3px 3px 5px darkgray;
-    margin:0 auto;
+    margin: 0 auto;
     /* padding: 20px; */
-    color:black;
+    color: black;
     font-family: Montserrat;
 }
 
-main{
+main {
     margin: 0 auto;
     width: 90%;
     padding: 25px;
     max-width: 1200px;
 }
-hr{
+
+hr {
     width: 100%;
-    background-color:darkgray;
+    background-color: darkgray;
 }
 
-.lesson{
+.lesson {
     margin: 0 auto;
     margin-left: 30px;
 }
-li{
+
+li {
     font-family: Roboto;
     font-size: 18px;
 }
-i{
-    padding:20px;
+
+i {
+    padding: 20px;
     font-family: Roboto;
 }
-footer{
+
+footer {
     background-color: purple;
     padding: 5px;
     text-align: center;
@@ -71,44 +76,80 @@ footer{
     font-family: Montserrat;
 }
 
-footer p{
-    color:white;
+footer p {
+    color: white;
     text-shadow: 3px 3px 5px black;
 }
 
-.wrapper { 
-    height: 100%;
+.wrapper {
+    /* height: 100%; */
     /* width: 100%; */
-    left:0;
+    left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     /* position: absolute; */
-  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-  background-size: 1800% 1800%;
-  
-  -webkit-animation: rainbow 18s ease infinite;
-  -z-animation: rainbow 18s ease infinite;
-  -o-animation: rainbow 18s ease infinite;
-    animation: rainbow 18s ease infinite;}
-  
-  @-webkit-keyframes rainbow {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-  @-moz-keyframes rainbow {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-  @-o-keyframes rainbow {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-  @keyframes rainbow { 
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
