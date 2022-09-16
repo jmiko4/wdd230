@@ -1,0 +1,114 @@
+/* *{
+    border:1px solid black;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+header{
+    background-color: purple;
+    display:flex;
+    border-radius: 15px;
+    margin:0 auto;
+    padding:20px;
+    box-shadow: 0px 5px 10px;
+    max-width: 1280px;
+}
+
+#photo{
+    width: 200px;
+    padding:5px;
+    box-shadow: 0px 0px 8px black;
+}
+
+#name{
+    padding: 20px;
+    font-family: Montserrat;
+    color: white;
+    font-weight: bold;
+    margin:0 auto;
+    align-self: center;
+    text-shadow: 3px 3px 5px black;
+}
+
+#title{
+    text-shadow: 3px 3px 5px darkgray;
+    margin:0 auto;
+    /* padding: 20px; */
+    color:black;
+    font-family: Montserrat;
+}
+
+main{
+    margin: 0 auto;
+    width: 90%;
+    padding: 25px;
+    max-width: 1200px;
+}
+hr{
+    width: 100%;
+    background-color:darkgray;
+}
+
+.lesson{
+    margin: 0 auto;
+    margin-left: 30px;
+}
+li{
+    font-family: Roboto;
+    font-size: 18px;
+}
+i{
+    padding:20px;
+    font-family: Roboto;
+}
+footer{
+    background-color: purple;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px -5px 15px;
+    /* color:white; */
+    max-width: 1280px;
+    font-family: Montserrat;
+}
+
+footer p{
+    color:white;
+    text-shadow: 3px 3px 5px black;
+}
+
+.wrapper { 
+    height: 100%;
+    /* width: 100%; */
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* position: absolute; */
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
