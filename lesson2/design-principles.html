@@ -8,18 +8,18 @@
     <title>Design Principles</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
-    
 </head>
 
 <body>
     <header>
         <h1>Design Principles Document</h1>
         <h2>Justin Mikolajcik</h1>
-    
     </header>
-    <main>
-        <section class="dp-container">
-            <h2>White Space</h2>
+    <main id="grid">
+        <section class="dp-container box-1">
+            <div id="top">
+                <h2>White Space</h2>
+            </div>
             <h3>Harvard Art Museum</h3>
             <a href="https://harvardartmuseums.org/">https://harvardartmuseums.org/</a>
             <img src="img/harvard.jpg" alt="Website Screenshot">
@@ -27,16 +27,20 @@
                 cluttered.
                 It makes it easy to understand page content and navigation is self explanatory.</p>
         </section>
-        <section class="dp-container">
-            <h2>Contrast</h2>
+        <section class="dp-container box-2">
+            <div id="top">
+                <h2>Contrast</h2>
+            </div>
             <h3>Huge</h3>
             <a href="https://www.hugeinc.com/">https://www.hugeinc.com/</a>
             <img src="img/HUGE.jpg" alt="Website Screenshot">
             <p>Huge uses the dark pink background with white text to catch the users attention. This combined with the
                 simple design makes the website very appealing and the information easily read.</p>
         </section>
-        <section class="dp-container">
-            <h2>Fitt's Law</h2>
+        <section class="dp-container box-3">
+            <div id="top">
+                <h2>Fitt's Law</h2>
+            </div>
             <h3>Mid City Nursery</h3>
             <a href="https://midcitynursery.com/">https://midcitynursery.com/</a>
             <img src="img/midcity.jpg" alt="Website Screenshot">
@@ -47,6 +51,11 @@
                 very far</p>
         </section>
     </main>
+    <footer class="wrapper">
+        <p id="footer"></p>
+        <p id="update"></p>
+    </footer>
+    <script src="js/design.js"></script>
 </body>
 
 </html>
