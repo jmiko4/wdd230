@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@600&display=swap');
+:root {
+  --primary-color: #F2EEE3;
+  --secondary-color: #B1B7CB;
+  --accent1-color: #6976be;
+  --accent2-color: #303633;
+  --heading-font: "Raleway";
+  --paragraph-font: Poppins, Helvetica, sans-serif;
+}
+body{
+  background-color:var(--primary-color);
+}
+h1,h2,h3,h4{
+  font-family: var(--heading-font);
+}
+p,a{
+  font-family: var(--paragraph-font);
+}
+.navbar{
+    display: none;
+}
+/* Mobile Navbar */
+.topnav {
+    overflow: hidden;
+    background-color: var(--primary-color);
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: var(--accent2-color);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: var(--secondary-color);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* height:100%; */
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: var(--secondary-color);
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+
+  .topnav img{
+    width: 75px;
+    margin: -20px;
+  }
+
+  main{
+    margin:0 auto;
+    text-align: center;
+  }
+
+  main img{
+    width: 300px;
+  }
+
+  hr {
+    width: 100%;
+    background-color: var(--accent2-color);
+}
+
+  footer{
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    /* box-shadow: 0px -5px 15px; */
+    /* color:white; */
+    max-width: 1280px;
+  }
+
+  #primary{
+    width: 100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: var(--primary-color);
+  }
+
+  #secondary{
+    width: 100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: var(--secondary-color);
+  }
+
+  #accent1{
+    width: 100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: var(--accent1-color);
+    color : white;
+  }
+
+  #accent2{
+    width: 100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: var(--accent2-color);
+    color: white;
+  }
+
+  #background-box-color{
+    background-color:white;
+  }
+@media screen and (min-width: 550px) {}
+
+@media screen and (min-width: 900px) {}
+
+@media screen and (min-width:1280px) {
+  body{
+    padding:3px;
+    background-color:var(--secondary-color);
+  }
+
+  #background-box{
+    width:1000px;
+    background-color:var(--primary-color);
+    /* height:1000px; */
+    margin:0 auto;
+    padding:15px;
+  }
+
+  #background-box-color{
+    width:1000px;
+    background-color:white;
+    /* height:1000px; */
+    margin:0 auto;
+    padding:15px;
+  }
+
+    .topnav{
+        display: none;
+    }
+
+    .navbar{
+        display:flex;
+        flex-direction: row;
+        background-color: #6976be;
+        /* color: var(--accent2-color); */
+        justify-content: space-evenly;
+        /* border-radius: 15px; */
+        /* padding:15px; */
+    }
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        padding:30px;
+    }
+    .navbar a:hover{
+        background-color: var(--secondary-color);
+        color:black;
+    }
+
+    #persona-box{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    #persona-1 img{
+      width: 100%;
+    }
+    #persona-2 img{
+      width:225px;
+    }
+
+
+
+
+
+    /* .navbar a:active{
+        background-color: yellow;
+    } */
+
+
+}
