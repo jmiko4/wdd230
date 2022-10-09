@@ -136,3 +136,11 @@ footer a {
     background-color: var(--accent1-color);
     color: white;
 }
+
+#join-container{
+    display:none;
+}
+
+#spot-3{
+    display:none;
+}

@@ -12,4 +12,4 @@ const year = date.getFullYear();
 document.querySelector('#year').innerHTML = "© " +year;
 
 const text = document.lastModified;
-document.querySelector('#last-modified').innerHTML = text;
+document.querySelector('#last-modified').innerHTML = "Last Modified: " + text;
