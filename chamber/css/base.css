@@ -67,7 +67,7 @@ header{
 }
 .ham img{
     width:35px;
-    filter:invert()
+    filter:invert();
     /* float:right; */
 }
 
