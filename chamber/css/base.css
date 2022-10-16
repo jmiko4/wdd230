@@ -2,6 +2,7 @@
     border-top: 1px solid;
 } */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@600&display=swap');
+
 :root {
     --primary-color: #F2EEE3;
     --secondary-color: #6b78a1;
@@ -10,137 +11,195 @@
     --heading-font: "Raleway";
     --paragraph-font: Poppins, Helvetica, sans-serif;
 }
-h1,h2,h3,h4{
+
+h1,
+h2,
+h3,
+h4 {
     font-family: var(--heading-font);
 }
-p,a,li{
+
+p,
+a,
+li {
     font-family: var(--paragraph-font);
 }
 
-hr{
-    color:var(--accent2-color);
+hr {
+    color: var(--accent2-color);
 }
-#date-box{
-    text-align:center;
-    padding:10px;
+
+#date-box {
+    text-align: center;
+    padding: 10px;
     background-color: var(--accent1-color);
     color: white;
 }
-.logo{
-    width:100px;
-    height:100px;
+
+.logo {
+    width: 100px;
+    height: 100px;
 }
 
-header{
-    display:flex;
-    flex-direction:column;
-    width:100%;
-    max-width:100%;
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
     background-color: var(--secondary-color);
-    color:white;
+    color: white;
     /* padding:10px; */
 }
-#nav{
-    padding:15px;
+
+#nav {
+    padding: 15px;
 }
 
-#topnav{
+#topnav {
     display: flex;
     justify-content: space-around;
-    width:100%;
-    height:100px;
+    width: 100%;
+    height: 100px;
 }
 
-.ham{
+.ham {
     align-items: center;
     align-self: center;
-    width:50px;
-    height:50px;
-    background-color:var(--secondary-color);
-    border:none;
+    width: 50px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    border: none;
     /* float:right; */
 }
 
-.ham:hover{
+.ham:hover {
     /* background-color:var(--accent1-color); */
-    cursor:pointer;
+    cursor: pointer;
 }
-.ham img{
-    width:35px;
-    filter:invert(100%);
+
+.ham img {
+    width: 35px;
+    filter: invert(100%);
     /* float:right; */
 }
 
-#links{
-    display:none;
+#links {
+    display: none;
 }
-.social-icon{
-    width:25px;
+
+.social-icon {
+    width: 25px;
     /* align-self: center; */
 }
-.social-icons{
+
+.social-icons {
     align-self: center;
 }
 
-#section-container{
-    display:flex;
-    flex-direction:column;
-    padding:15px;
+#section-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
 }
 
 
-.section{
-    background-color:var(--primary-color);
-    border:1px solid;
-    padding:10px;
-    min-height:200px;
-    font-style: italic;
+.section {
+    background-color: var(--primary-color);
+    border: 1px solid;
+    padding: 10px;
+    min-height: 150px;
+    /* font-style: italic; */
     margin-top: 15px;
+    text-align: center;
 }
 
-.spotlight{
+#hero-container {
+    background-image: url("../images/vacaville.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    position: relative;
+}
+
+.section-img {
+    width: 50%;
+}
+
+.section h2 {
+    font-style: bold;
+    color: var(--accent1-color);
+}
+
+.little-text {
+    font-size: 12px;
+}
+
+.btn {
+    position: absolute;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 14px;
+    right: 0;
+    bottom: 0;
+    margin: 25px;
+    font-size: 22px;
+}
+
+.btn:hover,
+#join-button:hover {
+    cursor: pointer;
+    background-color: var(--accent1-color)
+}
+
+.spotlight {
     min-height: 200px;
     padding-left: 15px;
-    border:1px solid;
-    margin:10px;
+    border: 1px solid;
+    margin: 10px;
 }
 
-footer{
+footer {
     text-align: center;
     background-color: var(--secondary-color);
     /* margin:0 auto; */
-    color:white;
+    color: white;
 }
+
 footer a {
-    color:white;
+    color: white;
     /* text-decoration:none; */
 }
 
-.mobile-links{
-    display:none;
+.mobile-links {
+    display: none;
 }
 
-.responsive{
-    display:flex;
+.responsive {
+    display: flex;
     flex-direction: column;
     /* transition: ease-in-out; */
 }
-.responsive a{
-    padding:10px;
-    margin-left:15px;
+
+.responsive a {
+    padding: 10px;
+    margin-left: 15px;
     text-decoration: none;
-    color:white;
+    color: white;
     font-size: 18px;
 }
-.responsive a:hover{
+
+.responsive a:hover {
     background-color: var(--accent1-color);
     color: white;
 }
 
-#join-container{
-    display:none;
+#join-container {
+    display: none;
 }
 
-#spot-3{
-    display:none;
+#spot-3 {
+    display: none;
 }
