@@ -41,6 +41,19 @@ hr {
     height: 100px;
 }
 
+.banner{
+    text-align: center;
+    background-color: var(--accent2-color);
+    color:white;
+    padding: 10px;
+    font-size: 20px;
+    display:none;
+}
+
+.display{
+    display: block;
+}
+
 header {
     display: flex;
     flex-direction: column;
