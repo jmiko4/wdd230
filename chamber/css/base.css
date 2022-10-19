@@ -191,8 +191,12 @@ footer a {
 }
 
 .responsive {
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
+    /* background-color: var(--secondary-color); */
+    /* width: 90%; */
+    
     /* transition: ease-in-out; */
 }
 
