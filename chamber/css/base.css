@@ -115,6 +115,18 @@ header {
     padding: 15px;
 }
 
+#welcome{
+    top:0;
+    position: absolute;
+    margin-left: 25px;
+    z-index: 1;
+}
+
+#banner-img{
+    z-index: 0;
+    width: 100%;
+    position: relative;
+}
 
 .section {
     background-color: var(--primary-color);
@@ -127,7 +139,7 @@ header {
 }
 
 #hero-container {
-    background-image: url("../images/vacaville.jpg");
+    /* background-image: url("../images/vacaville.jpg"); */
     background-position: center;
     background-size: cover;
     color: white;
@@ -172,6 +184,14 @@ header {
     padding-left: 15px;
     border: 1px solid;
     margin: 10px;
+}
+#weather-box{
+    display:flex;
+    justify-content: center;
+    gap:25px;
+}
+.degrees{
+    font-size: 20px;
 }
 
 footer {
