@@ -21,7 +21,8 @@ h4 {
 
 p,
 a,
-li {
+li,
+span {
     font-family: var(--paragraph-font);
 }
 
@@ -240,3 +241,39 @@ footer a {
 #spot-3 {
     display: none;
 }
+
+.header{
+    text-align: center;
+    color: var(--secondary-color)
+}
+
+#gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:10px;
+    max-width:90%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+#gallery picture {
+    flex-basis: 450px;
+}
+
+.gallery-image{
+    object-fit: cover;
+    width: 100%;
+    vertical-align: middle;
+    border-radius:5px;
+}
+
+.img-title{
+    text-align: center;
+
+}
+#last-visited{
+    text-align: center;
+    padding-top:15px;
+}
+

@@ -89,4 +89,13 @@
     .section-img {
         width: 30%;
     }
+    .gallery-image{
+        filter:grayscale(100%);
+        transition: .25s;
+    }
+    .gallery-image:hover{
+        /* filter:sepia(60%); */
+        filter:grayscale(0%);
+        transition: .25s;
+    }
 }
