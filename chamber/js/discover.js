@@ -19,9 +19,9 @@ document.querySelector('#last-modified').innerHTML = "Last Modified: " + text;
 // const banner = document.querySelector('.banner');
 // banner.innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 
-if (day == 1||day ==2){
-    banner.classList.toggle('display');
-}
+// if (day == 1||day ==2){
+//     banner.classList.toggle('display');
+// }
 
 // local storage
 localStorage.setItem('msg1', 'Hello Permanent');
