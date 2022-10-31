@@ -264,6 +264,7 @@ footer a {
 .gallery-image{
     object-fit: cover;
     width: 100%;
+    max-width:450px;
     vertical-align: middle;
     border-radius:5px;
 }
