@@ -40,6 +40,7 @@ table{
     text-align:center;
     margin:0 auto;
     box-shadow: 3px 5px 15px rgb(14, 65, 78);
+    max-width: 90%;
 }
 tfoot td{
     background-color:blanchedalmond;
