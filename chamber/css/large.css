@@ -98,4 +98,8 @@
         filter:grayscale(0%);
         transition: .25s;
     }
+
+    #join-main{
+        flex-direction:row;
+    }
 }

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <div id="topnav">
+                <a href="index.html"><img src="images/logo_white.webp" alt="logo" class="logo"></a>
+                <div id="header-title">
+                    <h2>Vacaville</h2>
+                    <h4>Chamber of Commerce</h4>
+                </div>
+                <div id="links">
+                    <a href="discover.html">Discover</a>
+                    <a href="directory.html">Directory</a>
+                    <a href="join.html">Join</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <a href="#" class=social-icons><img src="images/facebook.webp" alt="Facebook" class="social-icon"></a>
+                <a href="#" class=social-icons><img src="images/instagram.webp" alt="instagram" class="social-icon"></a>
+                <button class="ham"><img src="images/ham-small.webp" alt="menu button"></button>
+            </div>
+            <div class="mobile-links">
+                <a href="#">Discover</a>
+                <a href="#">Directory</a>
+                <a href="#">Join</a>
+                <a href="#">Contact</a>
+            </div>
+            <p id="date-box"></p>
+        </nav>
+    </header>
+
+    <main id="join-main">
+        <form method="get" action="thankyou.html">
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="firstname" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" required>
+            <label for="title">Business Position Title (Only letters,spaces and dashes and at least 7
+                characters)</label>
+            <input required id="title" name="title" pattern="[- A-Za-z]+" minlength="7">
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="email" placeholder="sample@example.com" required>
+            <label for="phone">Cell Number *:</label>
+            <input id="phone" type="tel" name="cell" required>
+
+            <label id="member">Enter Your Membership</label>
+            <div id="radio">
+                <div class="radio">
+                    <input type="radio" id="one" name="mlevel" value="level1">
+                    <label for="one">NP</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="two" name="mlevel" value="level2">
+                    <label for="two">Bronze</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="three" name="mlevel" value="level3">
+                    <label for="three">Silver</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="four" name="mlevel" value="level4">
+                    <label for="four">Gold</label>
+                </div>
+            </div>
+
+            <label for="message">Business Description</label>
+            <textarea id="message" placeholder="Your Business Description Here"></textarea>
+
+            <input id="date" type="hidden" name="todaydate">
+
+            <input type="submit" value="Join The Chamber">
+        </form>
+        <div id="membership-info">
+            <h1>🚑 Help and Additional Resources</h1>
+            <h2>Membership Levels Benefits</h2>
+            <h3>NP Membership</h3>
+
+            <p>For non profit organizations and there is no fee</p>
+
+            <h3>Bronze Membership</h3>
+
+            <p>15% discount on events</p>
+
+            <p>10% discount on advertising</p>
+
+            <p>Fee of $50/month</p>
+
+            <h3>Silver Membership</h3>
+
+            <p>25% discount on events</p>
+
+            <p>15% discount on advertising</p>
+
+            <p>Free participation in the trade fair
+
+            <p>Fee of $100/month</p>
+
+            <h3>Gold Membership</h3>
+
+            <p>50% discount on events</p>
+
+            <p>50% discount on advertising</p>
+
+            <p>Free participation in the trade fair</p>
+
+            <p>5 free featured ads per year</p>
+
+            <p>1 free training per quarter</p>
+
+            <p>Fee of $250/month</p>
+        </div>
+    </main>
+
+    <footer>
+        <p id="last-visited">
+            <div id="top-footer">
+                <img src="images/logo_white.webp" class="logo" id="footer-logo" alt="logo">
+                <div class="footer-1">
+                    <h4>Vacaville Chamber of Commerce</h4>
+                    <p>411 Davis St Suite 101</p>
+                    <p>Vacaville, CA 95688</p>
+                </div>
+                <div class="footer-2">
+                    <p>info@vacavillecc.org</p>
+                    <p>+(707) 448-1335</p>
+                    <a href="https://goo.gl/maps/5kcZJ6kkywJYpGkCA">Location Map</a>
+                </div>
+            </div>
+            <hr>
+            <div id="footer-3">
+                <div id='bottom-container'>
+                    <p id="year"></p>
+                    <p><strong>Justin Mikolajcik</strong></p>
+                    <p>WDD 230 Project</p>
+                </div>
+                <p id="last-modified"></p>
+            </div>
+    </footer>
+
+    <script type="text/javascript" src="js/join.js"></script>
+</body>
+
+</html>

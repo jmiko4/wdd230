@@ -278,3 +278,58 @@ footer a {
     padding-top:15px;
 }
 
+form {
+    margin: 25px;
+    background-color: var(--primary-color);
+    padding: 40px;
+    /* text-align: center; */
+    border-radius: 15px;
+    max-width:90%;
+}
+
+form input:required {
+    border-left: red solid 6px;
+}
+
+form input:required:valid {
+    border-left: green solid 6px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+label,
+input {
+    display: block;
+    font-size: 1.5em;
+    font-family: var(--paragraph-font);
+}
+
+textarea {
+    height: 150px;
+    width: 300px;
+}
+
+#radio label,
+#radio input {
+    display: inline;
+}
+#thanks{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding:30px;
+}
+
+#join-main{
+    display: flex;
+    flex-direction:column;
+}
+#membership-info{
+    margin:25px;
+    background-color: var(--primary-color);
+    padding:40px;
+    border-radius: 15px;
+    max-width:90%;
+
+}
