@@ -1,0 +1,88 @@
+{
+    "businesses": [
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      },
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      },
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      },
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      },
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      },
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      },
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      },
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      },
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      },
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      },
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      },
+      {
+        "businessname": "business",
+        "address": "123 baker street",
+        "phone": "122-2323",
+        "website": "test.com",
+        "imagesrc": "images/business.jpg"
+      }
+    ]
+  }
