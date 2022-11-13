@@ -102,4 +102,8 @@
     #join-main{
         flex-direction:row;
     }
+
+    .cards section{
+        flex-basis:25%;
+    }
 }

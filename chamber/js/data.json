@@ -1,88 +1,88 @@
 {
     "businesses": [
       {
-        "businessname": "business",
-        "address": "123 baker street",
-        "phone": "122-2323",
-        "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "businessname": "Cultive Frozen Yogurt",
+        "address": "124 Baker Street",
+        "phone": "(707)737-4384)",
+        "website": "cultive.com",
+        "imagesrc": "images/cultive.png"
       },
       {
-        "businessname": "business",
-        "address": "123 baker street",
-        "phone": "122-2323",
-        "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "businessname": "Kaiser Permanente",
+        "address": "8736 South Street",
+        "phone": "(707)847-9436",
+        "website": "kp.org",
+        "imagesrc": "images/kaiser.webp"
       },
       {
-        "businessname": "business",
-        "address": "123 baker street",
+        "businessname": "Jersey Mikes Subs",
+        "address": "893 Main Street",
         "phone": "122-2323",
-        "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "website": "jerseymike.com",
+        "imagesrc": "images/jersey.png"
       },
       {
-        "businessname": "business",
-        "address": "123 baker street",
-        "phone": "122-2323",
-        "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "businessname": "Fenton's",
+        "address": "425 Nut Tree Road",
+        "phone": "(707)980-8584",
+        "website": "fentons.com",
+        "imagesrc": "images/fentons.png"
       },
       {
-        "businessname": "business",
-        "address": "123 baker street",
-        "phone": "122-2323",
-        "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "businessname": "Pet Smart",
+        "address": "1634 Nut Tree Road",
+        "phone": "(707)847-3856",
+        "website": "petsmart.com",
+        "imagesrc": "images/petsmart.png"
       },
       {
-        "businessname": "business",
-        "address": "123 baker street",
-        "phone": "122-2323",
-        "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "businessname": "The Vitamin Shoppe",
+        "address": "938 Nut Tree Road",
+        "phone": "(707)122-2323",
+        "website": "vitamin.com",
+        "imagesrc": "images/vitamin.png"
       },
       {
-        "businessname": "business",
-        "address": "123 baker street",
-        "phone": "122-2323",
-        "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "businessname": "Best Buy",
+        "address": "534 Elm Way",
+        "phone": "(707)263-3947",
+        "website": "bestbuy.com",
+        "imagesrc": "images/best.png"
       },
       {
-        "businessname": "business",
-        "address": "123 baker street",
-        "phone": "122-2323",
-        "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "businessname": "Chipotle",
+        "address": "125 baker Street",
+        "phone": "(707)153-2223",
+        "website": "chipotle.com",
+        "imagesrc": "images/chipotle.png"
       },
       {
-        "businessname": "business",
-        "address": "123 baker street",
-        "phone": "122-2323",
-        "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "businessname": "Michaels",
+        "address": "934 baker Street",
+        "phone": "(707)234-2873",
+        "website": "michaels.com",
+        "imagesrc": "images/michaels.png"
       },
       {
-        "businessname": "business",
-        "address": "123 baker street",
+        "businessname": "World Market",
+        "address": "153 Main Street",
         "phone": "122-2323",
         "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "imagesrc": "images/world.png"
       },
       {
-        "businessname": "business",
-        "address": "123 baker street",
-        "phone": "122-2323",
-        "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "businessname": "Five Guys",
+        "address": "928 Nut Tree Road",
+        "phone": "(707)655-2833",
+        "website": "fiveguys.com",
+        "imagesrc": "images/five.png"
       },
       {
-        "businessname": "business",
-        "address": "123 baker street",
-        "phone": "122-2323",
-        "website": "test.com",
-        "imagesrc": "images/business.jpg"
+        "businessname": "Mid City Nursery",
+        "address": "3635 Broadway Street",
+        "phone": "(707)834-2423)",
+        "website": "midcitynursery.com",
+        "imagesrc": "images/mcnlogo.webp"
       }
     ]
   }

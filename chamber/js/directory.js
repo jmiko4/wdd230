@@ -16,7 +16,7 @@ document.querySelector('#year').innerHTML = "© " +year;
 const text = document.lastModified;
 document.querySelector('#last-modified').innerHTML = "Last Modified: " + text;
 
-const requestURL = 'js/data.json';
+const requestURL = 'https://jmiko4.github.io/wdd230/chamber/js/data.json';
 
 async function getCards(requestURL) {
     const response = await fetch(requestURL);
@@ -24,9 +24,8 @@ async function getCards(requestURL) {
     if (response.ok) {
         const jsObject = await response.json();
         console.log(jsObject);
-        const businesss = jsObject['businesss'];
-        console.log(businesss[0].lastname);
-        businesss.forEach(displayBusinesses);
+        const businesses = jsObject['businesses'];
+        businesses.forEach(displayBusinesses);
     }
 }
 
@@ -37,20 +36,71 @@ function displayBusinesses(item) {
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p'); 
     let p2 = document.createElement('p');
-    let p3 = document.createElement('p');
+    let a = document.createElement('a');
     let img = document.createElement('img');
 
-    h2.textContent = item.businesssname; 
+    h2.textContent = item.businessname; 
     p1.textContent = item.address ;
     p2.textContent = item.phone;
-    p3.textContent = item.website;
+    a.textContent = item.website;
+    a.setAttribute('href', item.website);
     img.setAttribute('src', item.imagesrc)
-    img.setAttribute('alt', item.businesssname);
+    img.setAttribute('alt', item.businessname);
 
     card.appendChild(h2);
     card.appendChild(p1); 
     card.appendChild(p2); 
-    card.appendChild(p3); 
+    card.appendChild(a); 
     card.appendChild(img); 
     document.querySelector('.cards').appendChild(card); 
 }
+
+async function getTable(requestURL) {
+    const response = await fetch(requestURL);
+    console.log(response);
+    if (response.ok) {
+        const jsObject = await response.json();
+        console.log(jsObject);
+        const businesses = jsObject['businesses'];
+        businesses.forEach(displayTable);
+    }
+}
+
+getTable(requestURL);
+
+
+function displayTable(item) {
+    // let table = document.createElement('table');
+    let tr = document.createElement('tr');
+    let td1 = document.createElement('td');
+    let td2 = document.createElement('td');
+    let td3 = document.createElement('td');
+    let td4 = document.createElement('td');
+    let a = document.createElement('a');
+    let img = document.createElement('img');
+
+    td1.textContent = item.businessname;
+    td2.textContent = item.address ;
+    td3.textContent = item.phone;
+    a.textContent = item.website;
+    a.setAttribute('href', item.website);
+    img.setAttribute('src', item.imagesrc)
+    img.setAttribute('alt', item.businessname);
+
+    // table.appendChild(tr);
+    tr.appendChild(td1);
+    tr.appendChild(td2);
+    tr.appendChild(td3);
+    tr.appendChild(td4)
+    td4.appendChild(a);
+    td4.appendChild(img);
+    document.querySelector('.table').appendChild(tr);
+}
+const table = document.querySelector('.table');
+const cards = document.querySelector('.cards');
+let toggleBtn = document.querySelector('.toggle-btn');
+table.classList.toggle('hidden');
+toggleBtn.addEventListener('click', () => {
+    table.classList.toggle('hidden');
+    cards.classList.toggle('hidden');
+    });
