@@ -77,15 +77,12 @@ function displayTable(item) {
     let td3 = document.createElement('td');
     let td4 = document.createElement('td');
     let a = document.createElement('a');
-    let img = document.createElement('img');
 
     td1.textContent = item.businessname;
     td2.textContent = item.address ;
     td3.textContent = item.phone;
     a.textContent = item.website;
     a.setAttribute('href', item.website);
-    img.setAttribute('src', item.imagesrc)
-    img.setAttribute('alt', item.businessname);
 
     // table.appendChild(tr);
     tr.appendChild(td1);
@@ -93,7 +90,6 @@ function displayTable(item) {
     tr.appendChild(td3);
     tr.appendChild(td4)
     td4.appendChild(a);
-    td4.appendChild(img);
     document.querySelector('.table').appendChild(tr);
 }
 const table = document.querySelector('.table');
