@@ -46,12 +46,13 @@ function displayBusinesses(item) {
     a.setAttribute('href', item.website);
     img.setAttribute('src', item.imagesrc)
     img.setAttribute('alt', item.businessname);
-
+    
+    card.appendChild(img); 
     card.appendChild(h2);
     card.appendChild(p1); 
     card.appendChild(p2); 
     card.appendChild(a); 
-    card.appendChild(img); 
+    
     document.querySelector('.cards').appendChild(card); 
 }
 
