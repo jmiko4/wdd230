@@ -354,7 +354,7 @@ textarea {
     text-align: center;
 }
 .cards img {
-    width: 90%;
+    width: 50%;
 }
 
 tr:nth-child(odd){
