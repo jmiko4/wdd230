@@ -131,7 +131,8 @@ header {
 
 .section {
     background-color: var(--primary-color);
-    border: 1px solid;
+    /* border: 1px solid; */
+    /* box-shadow: 0 0 10px; */
     padding: 10px;
     min-height: 150px;
     /* font-style: italic; */
@@ -146,6 +147,8 @@ header {
     color: white;
     text-shadow: 3px 3px 3px black;
     position: relative;
+    /* box-shadow: 0 0 10px; */
+    /* border: 1px solid; */
 }
 
 .section-img {
@@ -402,4 +405,7 @@ table{
 }
 .hidden{
     display:none;
+}
+#weathericon{
+    height:100%;
 }

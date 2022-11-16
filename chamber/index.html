@@ -68,12 +68,12 @@
             <section class="section" id="weather-container">
                 <h2>Weather</h2>
                 <div id="weather-box">
-                    <img src="images/cloud.webp" alt="weather image">
-                    <p class="degrees"><span id="temp">37</span>°F</p>
+                    <img alt="" src="" id="weathericon">
+                    <p class="degrees"><span id="current-temp"></span> °F</p>
                 </div>
-                <h2>Partly Cloudy</h2>
+                <h2 id="condition"></h2>
                 <hr>
-                <p>Wind Speed: <span id="wind">5</span>m/hr</p>
+                <p>Wind Speed: <span id="wind"></span>m/hr</p>
                 <hr>
                 <p>Wind Chill: <span id="wind-chill"></span></p>
             </section>
@@ -144,6 +144,7 @@
     </footer>
     <script src="js/scripts.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/weather-api.js"></script>
 </body>
 
 </html>
