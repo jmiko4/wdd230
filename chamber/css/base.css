@@ -409,3 +409,6 @@ table{
 #weathericon{
     height:100%;
 }
+figcaption{
+    font-family: var(--paragraph-font);
+}
