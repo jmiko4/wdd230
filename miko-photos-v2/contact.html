@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"/> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+        <title>Contact</title>         
+        <link type="text/css" rel="stylesheet" href="styles/portfolio.css"/> 
+    </head>     
+    <body> 
+        <header class="header"> 
+            <div class="topnav"> <a href="index.html" class="active"><img src="images/IMG_0194_inverted.png" alt="logo"/></a> 
+                <!-- Navigation links (hidden by default) -->                 
+                <div id="myLinks"> <a href="index.html">Work</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> 
+                </div>                 
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->                 <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa-fa-bars"><img src="images/icons8-hamburger-menu-90(@3x).png" alt="="/></i> </a> 
+            </div>             
+            <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>             
+            <nav id="navbar"> <a id="logo-link" href="index.html"> <img class="logo" src="images/IMG_0194_inverted.png" alt="logo"/> </a> 
+                <div id="navbar-inner"> <a href="index.html">Work</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> <a href="https://www.instagram.com/mikophotovideo/?hl=en" target="_blank"> <img src="images/instagram.png" alt="instagram icon"/> </a> <a href="https://www.facebook.com/mikophotovideo" target="_blank"> <img src="images/facebook.png" alt="fb icon"/> </a> <a href="mailto:justinmikolajcik@gmail.com" target="_blank"> <img src="images/email.png" alt="email icon"/> </a> 
+                </div>                 
+            </nav>             
+        </header>         
+        <main class="main"> 
+            <h1 class="title">Let's get in touch!</h1> 
+            <div id="contact-container"> 
+                <div class="social-container"> <a class="ig" href="https://www.instagram.com/mikophotovideo/?hl=en" target="_blank"> <img src="images/instagram.png" alt="instagram icon"/> </a> <a class="fb" href="https://www.facebook.com/mikophotovideo" target="_blank"> <img src="images/facebook-new.png" alt="fb icon"/> </a> <a class="email" href="mailto:justinmikolajcik@gmail.com" target="_blank"> <img src="images/email.png" alt="email icon"/> </a> 
+                </div>                 
+                <div class="paragraph-container"> 
+                    <p>Feel free to message me through my Facebook or Instagram page, or send me an email and we’ll talk
+                    about
+                    availability and pricing.</p> 
+                    <p> If you have any questions just let me know!</p> 
+                </div>                 
+            </div>             
+        </main>         
+        <footer class="footer"> 
+            <nav> <a id="about" href="about.html">About</a> <a id="contact" href="contact.html">Contact</a> <a class="ig" href="https://www.instagram.com/mikophotovideo/?hl=en" target="_blank"> <img src="images/instagram.png" alt="instagram icon"/> </a> <a class="fb" href="https://www.facebook.com/mikophotovideo" target="_blank"> <img src="images/facebook-new.png" alt="fb icon"/> </a> <a class="email" href="mailto:justinmikolajcik@gmail.com" target="_blank"> <img src="images/email.png" alt="email icon"/> </a> 
+            </nav>             
+        </footer>         
+    </body>     
+</html>
