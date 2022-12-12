@@ -449,15 +449,13 @@ header img {
     width: 25px;
 }
 
-.home-footer a {
-    /* text-shadow: 3px 3px 5px black; */
+/* .home-footer a {
     color: var(--primary-color);
 }
 
 .footer {
-    /* background-color: var(--secondary-accent); */
     color: var(--secondary-color);
-    height: 1;
+    
 }
 
 .footer a {
@@ -470,11 +468,12 @@ header img {
 
 #footer img {
     filter: none;
-}
+} */
 
 footer {
     /* margin-top: 2em; */
     /* background-color: var(--primary-color); */
+    padding-bottom: 0.5em;
     position: relative;
     width: 100%;
     display: grid;

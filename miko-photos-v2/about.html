@@ -1,66 +1,50 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-    <head> 
-        <meta charset="UTF-8"/> 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
-        <title>Contact</title>         
-        <link rel="stylesheet" href="styles/base.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/normalize.css"> 
-    </head>     
-    <body> 
-        <header class="header"> 
-            <div class="topnav"> <a href="index.html" class="active"><img src="images/IMG_0194_inverted.png" alt="logo"/></a> 
-                <!-- Navigation links (hidden by default) -->                 
-                <div id="myLinks"> <a href="index.html">Work</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> 
-                </div>                 
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->                 <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa-fa-bars"><img src="images/icons8-hamburger-menu-90(@3x).png" alt="="/></i> </a> 
-            </div>             
-            <script>
-            function myFunction() {
-                var x = document.getElementById("myLinks");
-                if (x.style.display === "block") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "block";
-                }
-            }
-        </script>
-            <nav id="navbar"> <a id="logo-link" href="index.html"> <img class="logo" src="images/IMG_0194_inverted.png" alt="logo"/> </a> 
-                <div id="navbar-inner"> <a href="index.html">Work</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> <a href="https://www.instagram.com/mikophotovideo/?hl=en" target="_blank"> <img src="images/instagram.png" alt="instagram icon"/> </a> <a href="https://www.facebook.com/mikophotovideo" target="_blank"> <img src="images/facebook.png" alt="fb icon"/> </a> <a href="mailto:justinmikolajcik@gmail.com" target="_blank"> <img src="images/email.png" alt="email icon"/> </a> 
-                </div>                 
-            </nav>
-        </header>         
-        <main class="main"> 
-            <h1 class="title">About Me</h1> 
-            <div id="about-container"> 
-                <div id="pic-container"> 
-                    <img src="images/MIKO7938.jpg" alt="Image of Justin"/> 
-                </div>                 
-                <div id="intro-container"> 
-                    <h2>Hi, I'm Justin</h2> 
-                    <p>Your new best friend with a camera.</p> <strong>Based out of Rexburg Idaho</strong> 
-                    <div id="social-container"> <a id="ab-ig" href="https://www.instagram.com/mikophotovideo/?hl=en" target="_blank"> <img src="images/instagram.png" alt="instagram icon"/> </a> <a id="ab-fb" href="https://www.facebook.com/mikophotovideo" target="_blank"> <img src="images/facebook.png" alt="fb icon"/> </a> <a id="ab-email" href="mailto:justinmikolajcik@gmail.com" target="_blank"> <img src="images/email.png" alt="email icon"/> </a> 
-                    </div>                     
-                </div>                 
-                <div class="info-container"> 
-                    <p>Photography has always fascinated me. I like trying to capture and
-                    communicate an emotion or experience through the art of Photography and Video. I started learning
-                    how to use a real camera making videos on my mission in Chicago. Since then I have been mastering
-                    the use of a camera to capture memorable pictures and videos.</p> 
-                    <p> If you have any questions just let me know!I am currently studying and based out of Rexburg Idaho
-                    where I am at BYU-Idaho. I also spend a lot of time in Utah and Northern California where my family
-                    lives. </p> 
-                    <p>I am excited for the chance to work with you and capture a special moment! Contact me for
-                    availability!</p> 
-                </div>                 
-            </div>             
-        </main>         
-        <footer class="footer"> 
-            <nav> <a id="about" href="about.html">About</a> <a id="contact" href="contact.html">Contact</a> <a class="ig" href="https://www.instagram.com/mikophotovideo/?hl=en" target="_blank"> <img src="images/instagram.png" alt="instagram icon"/> </a> <a class="fb" href="https://www.facebook.com/mikophotovideo" target="_blank"> <img src="images/facebook-new.png" alt="fb icon"/> </a> <a class="email" href="mailto:justinmikolajcik@gmail.com" target="_blank"> <img src="images/email.png" alt="email icon"/> </a> 
-            </nav>             
-        </footer>         
-    </body>     
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footy").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <main class="main">
+        <h1 class="title">About Me</h1>
+        <div id="about-container">
+            <div id="pic-container">
+                <img src="images/MIKO7938.jpg" alt="Image of Justin" />
+            </div>
+            <div id="intro-container">
+                <h2>Hi, I'm Justin</h2>
+                <p>Your new best friend with a camera.</p> <strong>Based out of Rexburg Idaho</strong>
+                <div id="social-container"> <a id="ab-ig" href="https://www.instagram.com/mikophotovideo/?hl=en"
+                        target="_blank"> <img src="images/instagram.png" alt="instagram icon" /> </a> <a id="ab-fb"
+                        href="https://www.facebook.com/mikophotovideo" target="_blank"> <img src="images/facebook.png"
+                            alt="fb icon" /> </a> <a id="ab-email" href="mailto:justinmikolajcik@gmail.com"
+                        target="_blank"> <img src="images/email.png" alt="email icon" /> </a>
+                </div>
+            </div>
+            <div class="info-container">
+                <p>I am excited for the chance to work with you and capture a special moment! Contact me for
+                    availability and pricing!</p>
+            </div>
+        </div>
+    </main>
+    <div id="footy"></div>
+</body>
+
 </html>
