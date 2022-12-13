@@ -24,20 +24,48 @@
     <div id="header"></div>
     <main class="main">
         <h1 class="title">Let's get in touch!</h1>
-        <div id="contact-container">
-            <div class="social-container"> <a class="ig" href="https://www.instagram.com/mikophotovideo/?hl=en"
-                    target="_blank"> <img src="images/instagram.png" alt="instagram icon" /> </a> <a class="fb"
-                    href="https://www.facebook.com/mikophotovideo" target="_blank"> <img src="images/facebook-new.png"
-                        alt="fb icon" /> </a> <a class="email" href="mailto:justinmikolajcik@gmail.com" target="_blank">
-                    <img src="images/email.png" alt="email icon" /> </a>
+        <form method="get" action="thankyou.html">
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="firstname" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" required>
+            <label for="title">Business Position Title (Only letters,spaces and dashes and at least 7 characters)</label>
+            <input required id="title" name="title" pattern="[- A-Za-z]+" minlength="7">
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="email">
+            <label for="phone">Cell Number *:</label>
+            <input id="phone" type="tel" name="cell" required>
+    
+            <label id="member">Enter Your Membership</label>
+            <div id="radio">
+                <div class="radio">
+                    <input type="radio" id="one" name="mlevel" value="level1">
+                    <label for="one">NP</label>
+                </div>
+    
+                <div class="radio">
+                    <input type="radio" id="two" name="mlevel" value="level2">
+                    <label for="two">Bronze</label>
+                </div>
+    
+                <div class="radio">
+                    <input type="radio" id="three" name="mlevel" value="level3">
+                    <label for="three">Silver</label>
+                </div>
+    
+                <div class="radio">
+                    <input type="radio" id="four" name="mlevel" value="level4">
+                    <label for="four">Gold</label>
+                </div>
             </div>
-            <div class="paragraph-container">
-                <p>Feel free to message me through my Facebook or Instagram page, or send me an email and we’ll talk
-                    about
-                    availability and pricing.</p>
-                <p> If you have any questions just let me know!</p>
-            </div>
-        </div>
+    
+            <label for="message">Business Description</label>
+            <textarea id="message" placeholder="Your Business Description Here"></textarea>
+    
+            <input id="date" type="hidden" name="todaydate">
+    
+            <input type="submit" value="Join The Chamber">
+        </form>
     </main>
     <div id="footy"></div>
 </body>
