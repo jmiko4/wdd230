@@ -6,3 +6,8 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+
+if(localStorage.getItem("firstTime")==null){
+    alert("This is the first time on my website! Enjoy!");
+    localStorage.setItem("firstTime","done");
+ }
