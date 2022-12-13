@@ -8,6 +8,6 @@ function myFunction() {
 }
 
 if(localStorage.getItem("firstTime")==null){
-    alert("This is the first time on my website! Enjoy!");
+    alert("This is your first time on my website! Enjoy!");
     localStorage.setItem("firstTime","done");
  }
