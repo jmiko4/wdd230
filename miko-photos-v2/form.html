@@ -1,0 +1,49 @@
+
+<main class="main">
+    <h1 class="title">Let's get in touch!</h1>
+    <form method="get" action="thankyou.html">
+        <label for="fname">First Name</label>
+        <input id="fname" type="text" name="firstname" required>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" required>
+        <label for="email" >Email: </label>
+        <input id="email" type="email" name="email" required>
+        <label for="phone">Cell Number:</label>
+        <input id="phone" type="tel" name="cell">
+
+        <label id="shoot-type">What are you interested in?</label>
+        <div id="radio">
+            <div class="radio">
+                <input type="radio" id="one" name="mlevel" value="level1">
+                <label for="one">Portraits</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" id="two" name="mlevel" value="level2">
+                <label for="two">Couples/Engagements</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" id="three" name="mlevel" value="level3">
+                <label for="three">Family Photos</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" id="four" name="mlevel" value="level4">
+                <label for="four">Wedding Video</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" id="five" name="mlevel" value="level5">
+                <label for="five">Other</label>
+            </div>
+        </div>
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Send me a message"></textarea>
+
+        <input id="date" type="hidden" name="todaydate">
+
+        <input type="submit" value="Send">
+    </form>
+</main>

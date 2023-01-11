@@ -7,7 +7,7 @@ function myFunction() {
     }
 }
 
-if(localStorage.getItem("firstTime")==null){
-    alert("This is your first time on my website! Enjoy!");
-    localStorage.setItem("firstTime","done");
- }
+// if(localStorage.getItem("firstTime")==null){
+//     alert("This is your first time on my website! Enjoy!");
+//     localStorage.setItem("firstTime","done");
+//  }

@@ -82,13 +82,12 @@ header {
 
 
 #contact-container img {
-    margin: -50px;
-    width: 120px;
+    width: 80px;
 }
 
 .social-container {
     width: 100%;
-    display: flex;
+    display: none;
     margin: 0 auto;
     text-align: center;
     align-items: center;

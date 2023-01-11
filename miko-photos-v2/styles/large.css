@@ -37,10 +37,11 @@
     }
 
     .social-container {
+        display:flex;
         height: 100px;
     
         /* padding: 1em; */
-        padding-top: 100px;
+        /* padding-top: 100px; */
     }
 
     #contact-container {

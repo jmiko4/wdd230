@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -24,54 +24,23 @@
     <div id="header"></div>
     <main class="main">
         <h1 class="title">Let's get in touch!</h1>
-        <form method="get" action="thankyou.html">
-            <label for="fname">First Name</label>
-            <input id="fname" type="text" name="firstname" required>
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" required>
-            <label for="email" >Email: </label>
-            <input id="email" type="email" name="email" required>
-            <label for="phone">Cell Number:</label>
-            <input id="phone" type="tel" name="cell">
-    
-            <label id="shoot-type">What are you interested in?</label>
-            <div id="radio">
-                <div class="radio">
-                    <input type="radio" id="one" name="mlevel" value="level1">
-                    <label for="one">Portraits</label>
-                </div>
-    
-                <div class="radio">
-                    <input type="radio" id="two" name="mlevel" value="level2">
-                    <label for="two">Couples/Engagements</label>
-                </div>
-    
-                <div class="radio">
-                    <input type="radio" id="three" name="mlevel" value="level3">
-                    <label for="three">Family Photos</label>
-                </div>
-    
-                <div class="radio">
-                    <input type="radio" id="four" name="mlevel" value="level4">
-                    <label for="four">Wedding Video</label>
-                </div>
-
-                <div class="radio">
-                    <input type="radio" id="five" name="mlevel" value="level5">
-                    <label for="five">Other</label>
-                </div>
+        <div id="contact-container">
+            <div class="social-container"> <a class="ig" href="https://www.instagram.com/mikophotovideo/?hl=en"
+                    target="_blank"> <img src="images/instagram.png" alt="instagram icon" /> </a> <a class="fb"
+                    href="https://www.facebook.com/mikophotovideo" target="_blank"> <img src="images/facebook-new.png"
+                        alt="fb icon" /> </a> <a class="email" href="mailto:justinmikolajcik@gmail.com" target="_blank">
+                    <img src="images/email.png" alt="email icon" /> </a>
             </div>
-    
-            <label for="message">Message</label>
-            <textarea id="message" placeholder="Send me a message"></textarea>
-    
-            <input id="date" type="hidden" name="todaydate">
-    
-            <input type="submit" value="Send">
-        </form>
+            <div class="paragraph-container">
+                <p>Feel free to message me through my Facebook or Instagram page, or send me an email and we’ll talk
+                    about
+                    availability and pricing.</p>
+                <p> If you have any questions just let me know!</p>
+            </div>
+        </div>
     </main>
     <div id="footy"></div>
-    
+
 </body>
 
 </html>
